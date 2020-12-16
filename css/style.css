@@ -1,92 +1,59 @@
 /* Denna fil skall innehålla din CSS kod */
 
-
-
-*{
-    margin: 0px;
-}
-
-.Westernfoods {
-    display: grid;
-    width: 100vw;
-    height: 100vh;
-
-
-grid-template-areas: 
-
-"he he he"
-"ar ar as"
-"ar ar as"
-"ar ar as"
-"fo fo fo"
-
-;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-gap: 2px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color:lightgrey;
 
 }
-
-
-.header {
-    grid-area: he;
-    background-color: antiquewhite;
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
 }
 
-.article {
-    grid-area: ar;
-    background-color: gray;
-}
-.aside {
-    grid-area: as;
-    background-color: red;
+ul{
+    margin:0;
+    padding:0;
 }
 
-.footer{
-    grid-area: fo;
-    background-color: goldenrod;
+header{
+    background:darkolivegreen;
+    color: whitesmoke;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: lightcoral 3px solid;
+}
+
+header a{
+    color: lightskyblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px 0 20px;
+}
 
+header #logga{
+    float: left;
+}
 
+header #logga h1{
+    margin: 0;
+} 
 
+header nav{
+    float: right;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
